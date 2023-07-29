@@ -1,0 +1,25 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "lib": [
+        "es2020"
+      ],
+      "module": "CommonJS",
+      "target": "es2020",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true
+    }
+  }
+}
